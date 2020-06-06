@@ -41,8 +41,8 @@
                
 setTimeout(()=>{
 
-    playerhand.src = `C:/Users/user/Desktop/game/images/${this.textContent}sss.png`;
-    computerhand.src = `C:/Users/user/Desktop/game/images/${computerchoice}sss.png`;
+    playerhand.src = `images/${this.textContent}sss.png`;
+    computerhand.src = `images/${computerchoice}sss.png`;
     comparescore(this.textContent,computerchoice);
 },2000)
 
